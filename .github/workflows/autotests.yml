@@ -1,4 +1,16 @@
-- name: Run tests and generate TRX log  # Запуск тестов
+name: .NET Regression Tests
+
+on:		# Запускается при push и pull request в ветку master
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest # ОС виртуальной машины
+    steps:
+    - name: Run tests and generate TRX log  # Запуск тестов
       run: dotnet test --no-build --configuration Release --logger "trx;LogFileName=test_results.trx"
 
     - name: Test Report		# Сохранение отчета
@@ -8,3 +20,4 @@
         name: Test results          
         path: "**/*.trx"    # Путь сохранения результатов теста
         reporter: dotnet-trx   # Формат результата
+
