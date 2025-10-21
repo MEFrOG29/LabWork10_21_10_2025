@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabWork10", "LabWork10\LabWork10.csproj", "{AD791E3E-E9D9-4F8F-A5AA-CF5207342CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPassword", "TestPassword\TestPassword.csproj", "{4B9792DD-D650-4C63-B91E-44FA39667999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD791E3E-E9D9-4F8F-A5AA-CF5207342CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD791E3E-E9D9-4F8F-A5AA-CF5207342CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD791E3E-E9D9-4F8F-A5AA-CF5207342CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD791E3E-E9D9-4F8F-A5AA-CF5207342CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9792DD-D650-4C63-B91E-44FA39667999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9792DD-D650-4C63-B91E-44FA39667999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9792DD-D650-4C63-B91E-44FA39667999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9792DD-D650-4C63-B91E-44FA39667999}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F335A6A5-EFF2-4EC4-A909-06987D05FEF4}
+	EndGlobalSection
+EndGlobal
